@@ -19,7 +19,7 @@ string userName = Console.ReadLine();
 
                 bool isOdd = x % 2 != 0;
 
-                if (x > 100)
+                if (x > 100 || x < 1)
                     Console.WriteLine($"{userName}, that is not a number between 1 and 100."); 
                 else if (isOdd && x < 60)
                     Console.WriteLine($"{userName}, {inputNumber} is odd.");
